@@ -1,0 +1,10 @@
+-- CreateTable
+CREATE TABLE "infoperson" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "ip" TEXT NOT NULL,
+    "age" INTEGER NOT NULL,
+    "gender" TEXT NOT NULL,
+    "weight" INTEGER NOT NULL,
+    "height" INTEGER NOT NULL,
+    "datecreated" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
